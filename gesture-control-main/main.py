@@ -125,7 +125,7 @@ while True:
 
                 # TWO FINGERS -> START PRESENTATION
                 elif total == 2:
-                    pyautogui.hotkey("command", "enter")
+                    pyautogui.hotkey("ctrl", "enter")
                     gesture = "Start Slideshow"
                     last_time = current_time
 
